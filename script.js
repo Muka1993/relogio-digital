@@ -3,7 +3,7 @@
 function carregaHora(){
    
     var data = new Date();
-    var hora = 18
+    var hora = data.getHours();
     var corpo = document.querySelector('body');
     var relogio = document.querySelector('.clock');
     var res = document.querySelector('.res');
