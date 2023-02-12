@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relógio Digital</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Share+Tech+Mono'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body onload="carregaHora()">
+
+<!-- DIV QUE MOSTRA A SAUDAÇÃO -->
+<div class="res"></div>
+
+<!-- RELÓGIO E DATA -->
+<div class="clock">
+    <p class="date">{{ date }}</p>
+    <p class="time">{{ time }}</p>
+    <p class="text">RELÓGIO DIGITAL com Vue.js</p>
+</div>
+
+<!-- IMPLEMENTAÇÃO DO VUE.JS E JAVASCRIPT -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
